@@ -1,0 +1,51 @@
+# by IceMan Italy 
+# mount point	fstype    device    	[device2] 
+/proinfo	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/proinfo
+/misc	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/misc
+/para	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/para
+/expdb	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/expdb
+/frp	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/frp
+/vbmeta_a	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/vbmeta_a
+/vbmeta_system_a	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/vbmeta_system_a
+/vbmeta_vendor_a	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/vbmeta_vendor_a
+/vbmeta_b	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/vbmeta_b
+/vbmeta_system_b	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/vbmeta_system_b
+/vbmeta_vendor_b	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/vbmeta_vendor_b
+/md_udc	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/md_udc
+/metadata	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/metadata
+/nvcfg	 ext4 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvcfg
+/nvdata	 ext4 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvdata
+/persist	 ext4 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/persist
+/protect1	 ext4 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/protect1
+/protect2	 ext4 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/protect2
+/seccfg	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/seccfg
+/md1img_a	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/md1img_a
+/spmfw_a	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/spmfw_a
+/scp_a	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/scp_a
+/sspm_a	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/sspm_a
+/gz_a	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/gz_a
+/lk_a	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/lk_a
+/boot_a	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/boot		flags=display="Boot";backup=1_a
+/vendor_boot_a	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/vendor_boot_a
+/dtbo_a	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/dtbo_a
+/tee_a	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/tee_a
+/sec1	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/sec1
+/boot_para	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/boot		flags=display="Boot";backup=1_para
+/nvram	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvram		flags=display="Nvram";backup=1
+/logo	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/logo		flags=display="Logo";backup=1
+/md1img_b	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/md1img_b
+/spmfw_b	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/spmfw_b
+/scp_b	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/scp_b
+/sspm_b	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/sspm_b
+/gz_b	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/gz_b
+/lk_b	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/lk_b
+/boot_b	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/boot		flags=display="Boot";backup=1_b
+/vendor_boot_b	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/vendor_boot_b
+/dtbo_b	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/dtbo_b
+/tee_b	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/tee_b
+/super	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/super
+/data	 ext4 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata    flags=encryptable=/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/metadata
+/otp	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/otp
+/flashinfo	 emmc /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/flashinfo
+/external_sd	auto	/dev/block/mmcblk1p1	/dev/block/mmcblk1	flags=display="External SDcard";storage;wipeingui;removable;backup=0
+/usbotg		auto    /dev/block/sda1		/dev/block/sda		flags=display="Usb-Otg";storage;removable;backup=0
