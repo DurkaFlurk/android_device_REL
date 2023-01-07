@@ -1,2 +1,2 @@
-add_lunch_combo Ulefone_Power_Armor14_Pro-userdebug
+COMMON_LUNCH_CHOICES Ulefone_Power_Armor14_Pro-userdebug
 
