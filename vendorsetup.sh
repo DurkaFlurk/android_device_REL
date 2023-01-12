@@ -1,2 +1,2 @@
-COMMON_LUNCH_CHOICES Ulefone_Power_Armor14_Pro-userdebug
+COMMON_LUNCH_CHOICES twrp_Power_Armor14_Pro-userdebug
 
