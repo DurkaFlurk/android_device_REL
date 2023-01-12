@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),Power_Armor14_Pro)
+ifeq ($(TARGET_DEVICE),twrp_Power_Armor14_Pro)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 endif
